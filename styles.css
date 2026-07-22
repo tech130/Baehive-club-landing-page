@@ -241,6 +241,11 @@ h4 {
     right: -100px;
     opacity: 0.3;
 }
+@media (max-width: 768px) {
+    .hero::after {
+       display: none;
+    }
+}
 
 .hero::after {
     content: '';
